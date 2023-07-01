@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.neuBox {
+  position: absolute;
+  top: 20px;
+  border-radius: 35px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 7px 20px;
+  padding: 20px;
+  box-shadow: inset 3px 3px 5px rgba(202, 193, 193),
+    inset 0 0 8px rgba(202, 193, 193);
+  border-radius: 35px;
+}
+.line2,
+.keys {
+  padding: 7px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.keys p {
+  width: 63px;
+  height: 30px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.first-key {
+  width: 63px;
+  height: 30px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px 5px 5px 5px;
+}
+.top-corner-key {
+  width: 63px;
+  height: 30px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px 15px 5px 5px;
+}
+.sqr57 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px 5px 5px 18px;
+  width: 65px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr66 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px 5px 18px 5px;
+  width: 65px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr2,
+.sqr3,
+.sqr4,
+.sqr5,
+.sqr6,
+.sqrt,
+.sqr7,
+.sqr8,
+.sqr9,
+.sqr10,
+.sqr11,
+.sqr12,
+.sqr14,
+.sqr16,
+.sqr17,
+.sqr18,
+.sqr19,
+.sqr20,
+.sqr21,
+.sqr22,
+.sqr23,
+.sqr24,
+.sqr25,
+.sqr26,
+.sqr27,
+.sqr29,
+.sqr31,
+.sqr32,
+.sqr33,
+.sqr34,
+.sqr35,
+.sqr36,
+.sqr37,
+.sqr38,
+.sqr39,
+.sqr40,
+.sqr41,
+.sqr43,
+.sqr45,
+.sqr46,
+.sqr47,
+.sqr48,
+.sqr49,
+.sqr50,
+.sqr51,
+.sqr52,
+.sqr53,
+.sqr54,
+.sqr56,
+.sqr58,
+.sqr59,
+.sqr60,
+.sqr62,
+.sqr63,
+.sqr65,
+.sqr67,
+.sqr68,
+.sqr69 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 65px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 42px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 130px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr28,
+.sqr64 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 87px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr15 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  width: 87px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+
+.sqr30 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 100px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr42,
+.sqr44 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 150px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr55 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 177px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqr61 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 374px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqrverticle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 8px;
+  height: 65px;
+}
+.sqrverticle .p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px 8px 0px 0px;
+  width: 82px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+.sqrverticle .p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 5px 5px;
+  width: 82px;
+  height: 65px;
+  box-shadow: 3px 3px 5px rgb(202, 193, 193), 3px 3px 5px rgb(202, 193, 193);
+}
+
+.boxIn {
+  border: 2.5px solid #000;
+  background: transparent;
+  width: 22px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxIn .line {
+  padding-top: 1px;
+  margin: 2px;
+  background: #000;
+}
+.fn {
+  border: 2.5px solid #000;
+  background: transparent;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  transform: translate(-50%, -50%);
+}
